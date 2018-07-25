@@ -1,0 +1,42 @@
+body{
+    /*background-image: url("../images/auto.png");*/
+}
+h1 {
+    color:red;
+}
+#menu{
+     border-bottom: 1px solid;
+     margin: 0 0 12px 12px;
+}
+#menu ul li{
+    display: inline;
+}
+#menu a{
+    color:red;
+    text-decoration: none;
+    font-size: larger;
+    margin-right: 20px;
+}
+#menu a:hover{
+    color:whitesmoke;
+    background-color: darkred;
+    padding: 15px;
+}
+
+#menu li:first-child {
+    background: url("../images/logo.png") no-repeat;
+    background-size: 40px 17px;
+    padding-left:50px;
+}
+div.social{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    margin: 12px 0 0 0;
+}
+img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    size: small;
+}
